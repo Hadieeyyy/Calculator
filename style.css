@@ -113,6 +113,10 @@ p{
     border-radius: 1rem;
 }
 
+.cell:hover, .op_cell:hover{
+    opacity: 0.5;
+}
+
 
 
 
