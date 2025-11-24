@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Calculator | Hadieeyyy</title>
+    <script src="script.js" defer></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,32 +17,33 @@
 <body> 
     <div id="calc_exterior" class="bordered">
         <div id="calc_interior">
-           <input type="text" id = "textbar" class="bordered">
+
+        <input type="text" id="textbar" class="bordered">
            <div id = "button_cont">
 
              <div id="digit_cont">
                    <div id="row1">
-                     <div class="cell"><p>1</p></div>
-                     <div class="cell"><p>2</p></div>
-                     <div class="cell"><p>3</p></div>
+                     <div class="cell btn"><p>1</p></div>
+                     <div class="cell btn"><p>2</p></div>
+                     <div class="cell btn"><p>3</p></div>
                    </div>
 
                    <div id="row2">
-                    <div class="cell"><p>4</p></div>
-                    <div class="cell"><p>5</p></div>
-                    <div class="cell"><p>6</p></div>
+                    <div class="cell btn"><p>4</p></div>
+                    <div class="cell btn"><p>5</p></div>
+                    <div class="cell btn"><p>6</p></div>
                   </div>
 
                   <div id="row3">
-                    <div class="cell"><p>7</p></div>
-                    <div class="cell"><p>8</p></div>
-                    <div class="cell"><p>9</p></div>
+                    <div class="cell btn"><p>7</p></div>
+                    <div class="cell btn"><p>8</p></div>
+                    <div class="cell btn"><p>9</p></div>
                   </div>
 
                   <div id="row4">
-                    <div class="cell" style="background: #ffdb58;"><p>C</p></div>
-                    <div class="cell"><p>0</p></div>
-                    <div class="cell" style="background: #ffa07a;"><p>=</p></div>
+                    <div class="btne" id="clr" style="background: #ffdb58;"><p>C</p></div>
+                    <div class="cell btn"><p>0</p></div>
+                    <div class="btne" id="eql" style="background: #ffa07a;"><p>=</p></div>
                   </div>
              </div>
 
